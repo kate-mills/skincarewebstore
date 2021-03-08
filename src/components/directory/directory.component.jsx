@@ -12,19 +12,21 @@ class Directory extends React.Component {
           imageUrl: 'https://i.ibb.co/wQ3jwGV/Cleanser.jpg',
           id: 1,
         },{
-          title: 'toners',
-          imageUrl: 'https://i.ibb.co/cTkWLxc/Tone.jpg',
+          title: 'Eyes & Lips',
+          imageUrl: 'https://i.ibb.co/V952dKP/Lips.jpg',
           id: 2,
         },{
-          title: 'travel',
-          imageUrl: 'https://i.ibb.co/9g7xSR6/Travel.jpg',
+          title: 'Specialty',
+          imageUrl: 'https://i.ibb.co/zhLQ8wf/Travel.jpg',
           id: 3,
-        },{
+        },
+        {
           title: 'moisturizers',
           size: 'large',
           imageUrl: 'https://i.ibb.co/MCvbsT0/Moisture.jpg',
           id: 4,
-        },{
+        }
+      ,{
           title: 'serums',
           size: 'large',
           imageUrl: 'https://i.ibb.co/zHhT7sp/Serum.jpg',
