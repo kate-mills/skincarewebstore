@@ -10,21 +10,47 @@ import SignInAndSignUp from './pages/sign-in-and-sign-up/sign-in-and-sign-up.com
 
 import Header from './components/header/header.component'
 
+import { auth } from './firebase/firebase.utils'
 
-function App() {
-  return (
-    <Router>
-      <div>
-        <Header/>
-        <Switch>
-          <Route path="/" exact><HomePage/></Route>
-          <Route path="/shop"><ShopPage/></Route>
-          <Route path="/signin"><SignInAndSignUp/></Route>
-          <Route path="*"><ErrorPage/></Route>
-        </Switch>
-      </div>
-    </Router>
-  );
+
+class App extends React.Component{
+  constructor() {
+    super();
+
+    this.state = {
+      currentUser: null,
+    }
+
+  }
+
+  unsubscribeFromAuth = null
+
+  componentDidMount() {
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
+      this.setState({currentUser: user});
+      console.log('user', user)
+    })
+  }
+
+  componentWillUnmount(){
+    this.unsubscribeFromAuth();
+  }
+
+  render () {
+    return (
+      <Router>
+        <div>
+          <Header currentUser={this.state.currentUser}/>
+          <Switch>
+            <Route path="/" exact><HomePage/></Route>
+            <Route path="/shop"><ShopPage/></Route>
+            <Route path="/signin"><SignInAndSignUp/></Route>
+            <Route path="*"><ErrorPage/></Route>
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 };
 export default App
 
