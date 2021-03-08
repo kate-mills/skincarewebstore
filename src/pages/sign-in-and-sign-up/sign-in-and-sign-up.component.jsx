@@ -6,7 +6,6 @@ const SignInAndSignUp = () => {
   return (
     <div className="sign-in-and-sign-up">
       <SignInForm/>
-      SIGN IN
     </div>
   )
 }
