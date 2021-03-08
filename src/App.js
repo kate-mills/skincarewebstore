@@ -10,17 +10,19 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import ErrorPage from './pages/errorpage/errorpage.component';
+import Header from './components/header/header.component'
 
 
 function App() {
   return (
     <div>
+      <Header/>
       <Switch>
         {/*<ErrorBoundary>
            <Suspense fallback={<Spinner />}> */}
-            <Route path='/shop' component={ShopPage} />
             <Route exact path='/' component={HomePage} />
-            <Route path='/*' component={ErrorPage} />
+            <Route path='/shop' component={ShopPage} />
+            <Route path='*' component={ErrorPage} />
           {/* </Suspense> </ErrorBoundary>*/}
       </Switch>
     </div>
