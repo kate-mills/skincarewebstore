@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DATA from './data.js';
+import DATA from './data';
 
 import CollectionPreview from '../../components/collection-preview/collection-preview.component';
 
