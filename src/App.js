@@ -36,7 +36,7 @@ class App extends React.Component{
               id: snapShot.id,
               ...snapShot.data()
             }
-          }, () => console.log('set', this.state))
+          })
         })
       }
       this.setState({ currentUser: userAuth }) // null;

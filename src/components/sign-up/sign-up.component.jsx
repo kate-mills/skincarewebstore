@@ -24,7 +24,6 @@ class SignUp extends React.Component {
     const {displayName, email, password, confirmPassword } = this.state;
 
     if(password !== confirmPassword){
-      console.log('NOOOOOOO', password, confirmPassword, email, displayName)
       alert('passwords don\'t match');
       return
     }
@@ -57,7 +56,7 @@ class SignUp extends React.Component {
             name='displayName'
             handleChange={this.handleChange}
             value={this.state.displayName}
-            label='Name'
+            label='name'
             autoComplete="off"
             required
           />
