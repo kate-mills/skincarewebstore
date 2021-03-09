@@ -77,7 +77,7 @@ class SignUp extends React.Component {
             value={this.state.password}
             label='password'
             autoComplete="off"
-            minlength="6"
+            minLength="6"
             required
           />
           <FormInput
@@ -87,7 +87,7 @@ class SignUp extends React.Component {
             value={this.state.confirmPassword}
             label='confirm password'
             autoComplete="off"
-            minlength="6"
+            minLength="6"
             required
           />
           <Btn type='submit'> Sign up </Btn>
