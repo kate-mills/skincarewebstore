@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './btn.styles.scss';
+import './custom-button.styles.scss';
 
 const Btn = ({ children, isGoogleSignIn, ...otherProps }) => (
   <button
