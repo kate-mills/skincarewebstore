@@ -10,7 +10,6 @@ import CheckoutItem from '../../components/checkout-item/checkout-item.component
 import './checkout.styles.scss'
 
 const Checkout  = ({cartItems, cartTotal}) => {
-  console.log(cartTotal)
 
   return (
     <div className='checkout-page'>
@@ -38,7 +37,6 @@ const Checkout  = ({cartItems, cartTotal}) => {
       </div>
         {
           cartItems.map(cartItem =>{
-            console.log('item', cartItem)
             return(
               <CheckoutItem key={cartItem.id} cartItem={cartItem}/>
             )

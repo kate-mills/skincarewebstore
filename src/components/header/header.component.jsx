@@ -18,9 +18,6 @@ import {selectCurrentUser} from '../../redux/user/user.selectors'
 import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => {
-  console.log('top of Header - crtUser:', currentUser)
-  console.log('top of Header - hidden :', hidden)
-
   return <div className='header'>
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
