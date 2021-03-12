@@ -15,12 +15,12 @@ const Checkout  = ({cartItems, cartTotal}) => {
     <div className='checkout-page'>
       <div className='checkout-header'>
 
-        <div className='header-block'>
+        <div className='header-block' style={{textAlign: 'center'}}>
           <span>Product</span>
         </div>
 
         <div className='header-block'>
-          <span>Product</span>
+          <span>Name</span>
         </div>
 
         <div className='header-block'>
@@ -31,9 +31,7 @@ const Checkout  = ({cartItems, cartTotal}) => {
           <span>Price</span>
         </div>
 
-        <div className='header-block'>
-          <span>Remove</span>
-        </div>
+        <div className='header-block'> </div>
       </div>
         {
           cartItems.map(cartItem =>{
