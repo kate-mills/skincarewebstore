@@ -52,25 +52,25 @@ const DATA = [
         id: 101,
         name: 'Glycolic Cream',
         imageUrl: 'https://i.ibb.co/HBfL6wR/glycolic-cream.jpg',
-        price: 220
+        price: 35
       },
       {
         id: 202,
         name: 'Purifying Oxygen Lotion',
         imageUrl: 'https://i.ibb.co/4RzBbLr/pur-Oxy-retail-3.jpg',
-        price: 280
+        price: 35
       },
       {
         id: 203,
         name: 'Vitamin C Powder',
         imageUrl: 'https://i.ibb.co/wy1R7hV/vitpwd-retail.jpg',
-        price: 110
+        price: 35
       },
       {
         id: 204,
         name: 'Balance Essential Oil Blend',
         imageUrl: 'https://i.ibb.co/BfXxP8c/balance.jpg',
-        price: 160
+        price: 35
       },
       {
         id: 205,
@@ -95,67 +95,67 @@ const DATA = [
         id: 301,
         name: 'Blemish Be Gone',
         imageUrl: 'https://i.ibb.co/HPPb2Wk/bbg-retail.jpg',
-        price: 125
+        price: 35
       },
       {
         id: 302,
         name: 'Brighten & Restore Complex',
         imageUrl: 'https://i.ibb.co/6Wnn5SK/bandr.jpg',
-        price: 90
+        price: 35
       },
       {
         id: 303,
         name: 'Calm, Nourish & Repair Oil',
         imageUrl: 'https://i.ibb.co/4dLfnCX/cnr-retail.jpg',
-        price: 90
+        price: 35
       },
       {
         id: 304,
         name: 'Calming Serum',
         imageUrl: 'https://i.ibb.co/23MyR0w/calming-serum.jpg',
-        price: 165
+        price: 35
       },
       {
         id: 305,
         name: 'Glycolic Age Defying Serum',
         imageUrl: 'https://i.ibb.co/74c3wb2/glycolic-retail.jpg',
-        price: 185
+        price: 35
       },
       {
         id: 306,
         name: 'Hyaluronic Plumping Serum',
         imageUrl: 'https://i.ibb.co/KKRSKPC/hyal-retail.jpg',
-        price: 185
+        price: 35
       },
       {
         id: 307,
         name: 'Licorice Root Additive',
         imageUrl: 'https://i.ibb.co/jvFYNcP/licorice.jpg',
-        price: 185
+        price: 35
       },
       {
         id: 308,
         name: 'Lipid Replenishing Drops',
         imageUrl: 'https://i.ibb.co/Jr1nFwN/lipid-retail.jpg',
-        price: 185
+        price: 35
       },
       {
         id: 309,
         name: 'Prime & Protect Serum',
         imageUrl: 'https://i.ibb.co/3msMNHN/pprotect-retail.jpg',
-        price: 185
+        price: 35
       },
       {
         id: 310,
         name: 'Rejuvenating Peptide & Stem Cell Serum',
         imageUrl: 'https://i.ibb.co/LRQnDys/rejpepserum-retail.jpg',
-        price: 185
+        price: 35
       },
       {
         id: 311,
         name: 'Vitamin C Serum Plus',
         imageUrl: 'https://i.ibb.co/QXDyN53/vit-c.jpg',
-        price: 185
+        price: 35
       },
     ]
   },
@@ -211,7 +211,7 @@ const DATA = [
         id: 504,
         name: 'Calming Moisture Cream',
         imageUrl: 'https://i.ibb.co/HCjMvPz/calming-moisture-cream-retail.jpg',
-        price: 325
+        price: 25
       },
       {
         id: 505,
