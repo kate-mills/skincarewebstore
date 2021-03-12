@@ -58,10 +58,11 @@ class SignUp extends React.Component {
     const { displayName, email, password, confirmPassword } = this.state;
     return (
       <div className='sign-up'>
-        <h2 className='title'>Sign Up For A New Account</h2>
+        <h2 className='title'>I do not have a account</h2>
         <span>Sign up with your email and password</span>
-        <form className='sign-up-form' onSubmit={this.handleSubmit}>
+        <form className='sign-up-form' onSubmit={this.handleSubmit} autoComplete='off'>
           <FormInput
+            autoComplete='off'
             type='text'
             name='displayName'
             value={displayName}
@@ -70,6 +71,7 @@ class SignUp extends React.Component {
             required
           />
           <FormInput
+            autoComplete='off'
             type='email'
             name='email'
             value={email}
@@ -78,6 +80,7 @@ class SignUp extends React.Component {
             required
           />
           <FormInput
+            autoComplete='off'
             type='password'
             name='password'
             value={password}
@@ -86,6 +89,7 @@ class SignUp extends React.Component {
             required
           />
           <FormInput
+            autoComplete='off'
             type='password'
             name='confirmPassword'
             value={confirmPassword}

@@ -1,5 +1,5 @@
-const DATA = [
-  {
+const DATA = {
+  cleansers: {
     id: 1,
     title: 'Cleansers',
     routeName: 'cleansers',
@@ -43,7 +43,7 @@ const DATA = [
 
     ]
   },
-  {
+  specialty: {
     id: 2,
     title: 'Specialty',
     routeName: 'specialty',
@@ -86,7 +86,7 @@ const DATA = [
       },
     ]
   },
-  {
+  serums: {
     id: 3,
     title: 'Serums',
     routeName: 'serums',
@@ -159,10 +159,10 @@ const DATA = [
       },
     ]
   },
-  {
+  eyeslips: {
     id: 4,
     title: 'Eyes & Lips',
-    routeName: 'eyes-lips',
+    routeName: 'eyeslips',
     items: [
       {
         id: 401,
@@ -184,7 +184,7 @@ const DATA = [
       },
     ]
   },
-  {
+  moisturizers: {
     id: 5,
     title: 'Moisturizers',
     routeName: 'moisturizers',
@@ -251,6 +251,6 @@ const DATA = [
       },
     ]
   }
-];
+};
 
 export default DATA;
