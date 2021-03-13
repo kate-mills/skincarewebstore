@@ -1,6 +1,7 @@
 import memoize from 'lodash.memoize';
 import { createSelector } from 'reselect'
 
+// How much shop data do I need
 
 const selectShop = state => state.shop
 

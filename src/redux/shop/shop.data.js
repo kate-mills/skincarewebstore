@@ -1,3 +1,4 @@
+//normalize data
 const DATA = {
   cleansers: {
     id: 1,

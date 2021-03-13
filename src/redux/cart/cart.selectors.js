@@ -1,5 +1,6 @@
 import { createSelector } from 'reselect'
 
+// How much cart data do I need
 
 const selectCart = state => state.cart;
 
