@@ -9,12 +9,10 @@ import StripeCheckout from 'react-stripe-checkout'
 import './stripe-button.styles.scss'
 
 const onToken = token => {
-  console.log(token);
   alert('Payment Successful')
 }
 const StripeCheckoutButton  = ({price}) => {
   const priceForStripe = price * 100;
-  console.log(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY)
   return (
     <StripeCheckout label='Pay Now'
       name='Skincare Webstore'
